@@ -1,8 +1,30 @@
 {
+    "ace": {
+        "@guessTabSize": true,
+        "@newLineMode": "windows",
+        "@tabSize": 1,
+        "@useSoftTabs": true
+    },
+    "build": {
+        "@saveall": true
+    },
+    "format": {
+        "jsbeautify": {
+            "@braces": "expand",
+            "@indent_inner_html": true
+        }
+    },
+    "general": {
+        "@stripws": false
+    },
     "instance": {
         "@automaticShutdown": "30"
     },
+    "javascript": {
+        "@formatOnSave": false
+    },
     "language": {
+        "@unusedFunctionArgs": true,
         "tern_defs": {
             "json()": {
                 "browser": {
@@ -16,6 +38,9 @@
                 }
             }
         }
+    },
+    "php": {
+        "@formatOnSave": false
     },
     "run": {
         "configs": {
